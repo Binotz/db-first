@@ -1,0 +1,17 @@
+Table name: dealer
+
+id - BIGINT - PRIMARY_KEY
+car_manufacturer - VARCHAR(20) - NOTNULL
+model - VARCHAR(20) - NOTNULL
+registration - YEAR - NOTNULL
+price - DECIMAL (7, 0) - NOTNULL
+instalment - DECIMAL(6, 2) - NOTNULL
+kilometers - FLOAT(6, 0) - NOTNULL
+fuel - VARCHAR(25) - NOTNULL
+transmission - VARCHAR(15) - NOTNULL
+displacement_in_cc - INT - NOTNULL
+power_in_CV - INT - NOTNULL
+seats - TINYINT - NOTNULL
+color - VARCHAR(25) - NOTNULL
+has_GPS - TINYINT - NULL
+CO2_emissions - VARCHAR(10) - NULL
